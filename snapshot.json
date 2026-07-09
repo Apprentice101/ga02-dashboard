@@ -1,0 +1,694 @@
+{
+  "version": "1",
+  "dataAsOf": "2026-07-09",
+  "updatedAt": "2026-07-09T19:00:00Z",
+  "exportedAt": "2026-07-09T23:28:04.273Z",
+  "districtCode": "GA-02",
+  "data": {
+    "DISTRICT": {
+      "id": "ga-02",
+      "districtNumber": "GA-02",
+      "districtName": "Georgia's 2nd Congressional District",
+      "state": "Georgia",
+      "counties": [
+        "Baker",
+        "Bibb (part)",
+        "Calhoun",
+        "Chattahoochee",
+        "Clay",
+        "Crawford",
+        "Decatur",
+        "Dooly",
+        "Dougherty",
+        "Early",
+        "Grady",
+        "Houston (part)",
+        "Lee",
+        "Macon",
+        "Marion",
+        "Miller",
+        "Mitchell",
+        "Muscogee (part)",
+        "Peach",
+        "Quitman",
+        "Randolph",
+        "Schley",
+        "Seminole",
+        "Stewart",
+        "Sumter",
+        "Talbot",
+        "Taylor",
+        "Terrell",
+        "Thomas",
+        "Webster"
+      ],
+      "majorPlaces": [
+        "Albany",
+        "Columbus (part)",
+        "Macon (part)",
+        "Americus",
+        "Bainbridge"
+      ],
+      "cycleYear": 2026,
+      "population": 750000,
+      "registeredVoters": null,
+      "partyRegistration": null,
+      "previousResult": null,
+      "boundaryConfidence": "unconfirmed",
+      "electorateConfidence": "unconfirmed",
+      "newsDiscoveryHints": {
+        "geographicHint": "GA-02 spans 29 southwest Georgia counties anchored by Albany (Dougherty County), with partial shares of Columbus (Muscogee, split with GA-03) and Macon (Bibb, split with GA-08); statewide Georgia SOS coverage and Albany/Columbus/Macon regional outlets are more useful than any single district-specific source.",
+        "preferredOutlets": [
+          "Albany Herald",
+          "Columbus Ledger-Enquirer",
+          "The Telegraph (Macon)",
+          "Atlanta Journal-Constitution",
+          "WABE",
+          "WSB-TV",
+          "Georgia Recorder"
+        ]
+      }
+    },
+    "SOURCES": {
+      "src-ga-sos-elections": {
+        "id": "src-ga-sos-elections",
+        "name": "Georgia Secretary of State — Elections Division",
+        "short": "GA SOS Elections",
+        "url": "https://sos.ga.gov/elections-division-georgia-secretary-states-office",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
+      },
+      "src-ga-register": {
+        "id": "src-ga-register",
+        "name": "Georgia — Online Voter Registration",
+        "short": "GA Register",
+        "url": "https://registertovote.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-ga-my-voter-page": {
+        "id": "src-ga-my-voter-page",
+        "name": "Georgia — My Voter Page (mvp.sos.ga.gov)",
+        "short": "GA My Voter Page",
+        "url": "https://mvp.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Central hub for GA-02 voters: registration status, polling place, sample ballot, absentee status, and county-approved drop box locations."
+      },
+      "src-ga-absentee-tracker": {
+        "id": "src-ga-absentee-tracker",
+        "name": "Georgia — Secure My Absentee Ballot (tracker)",
+        "short": "GA Absentee Tracker",
+        "url": "https://securemyabsenteeballot.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-ga-voter-id-guide": {
+        "id": "src-ga-voter-id-guide",
+        "name": "Georgia SOS — Voter ID Requirements How-To Guide",
+        "short": "GA Voter ID Guide",
+        "url": "https://sos.ga.gov/how-to-guide/how-guide-voter-id-requirements",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "NEEDS REVIEW: exact live URL not independently re-fetched this pass; SOS elections hub is a reliable fallback."
+      },
+      "src-ga-results": {
+        "id": "src-ga-results",
+        "name": "Georgia — Election Results Portal",
+        "short": "GA Results",
+        "url": "https://results.sos.ga.gov",
+        "publisher": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "hierarchyLevel": 1,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "NEEDS REVIEW: exact live results-night domain not independently re-verified this pass; SOS elections hub links to results."
+      },
+      "src-ga-legis-redistricting": {
+        "id": "src-ga-legis-redistricting",
+        "name": "Georgia General Assembly — Reapportionment Office",
+        "short": "GA Reapportionment",
+        "url": "https://www.legis.ga.gov/joint-office/reapportionment",
+        "publisher": "Georgia General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
+      },
+      "src-ga-sb202": {
+        "id": "src-ga-sb202",
+        "name": "Georgia SB 202 (2021) — Election Integrity Act",
+        "short": "GA SB 202",
+        "url": "https://www.legis.ga.gov/legislation/59827",
+        "publisher": "Georgia General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
+      },
+      "src-ga-sb189": {
+        "id": "src-ga-sb189",
+        "name": "Georgia SB 189 (2024) — Ballot Tabulation / QR Code Elimination",
+        "short": "GA SB 189",
+        "url": "https://www.legis.ga.gov/legislation/65069",
+        "publisher": "Georgia General Assembly",
+        "sourceType": "statutory",
+        "hierarchyLevel": 3,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
+      },
+      "src-ga-fvap-county-offices": {
+        "id": "src-ga-fvap-county-offices",
+        "name": "FVAP — Georgia County Election Offices Directory",
+        "short": "FVAP GA Offices",
+        "url": "https://www.fvap.gov/xml-api/Georgia/election-offices.xml",
+        "publisher": "Federal Voting Assistance Program",
+        "sourceType": "official-county",
+        "hierarchyLevel": 2,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Aggregated official-county contact data for all 29 GA-02 counties. NEEDS REVIEW: individual county board-of-elections website URLs were not separately captured for every county."
+      },
+      "src-ajc": {
+        "id": "src-ajc",
+        "name": "Atlanta Journal-Constitution — GA-02 primary coverage",
+        "short": "AJC",
+        "url": "https://www.ajc.com/politics/2026/04/us-house-district-2-bishop-avoids-primary-challenge-in-sw-georgia/",
+        "publisher": "Atlanta Journal-Constitution",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-wabe-candidates": {
+        "id": "src-wabe-candidates",
+        "name": "WABE — 2026 Georgia Candidates Tracker",
+        "short": "WABE Candidates",
+        "url": "https://www.wabe.org/2026georgiacandidates/",
+        "publisher": "WABE",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-wsb-tv": {
+        "id": "src-wsb-tv",
+        "name": "WSB-TV — Georgia General Election 2026 Candidates",
+        "short": "WSB-TV",
+        "url": "https://www.wsbtv.com/news/local/georgia-general-election-2026-candidates-us-senate-all-14-us-house-seats/TCGX3E477BG7FCEATCR67KRDBQ/",
+        "publisher": "WSB-TV",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-bloomberg-ga-redistricting": {
+        "id": "src-bloomberg-ga-redistricting",
+        "name": "Bloomberg — Georgia GOP Drops Plans to Redraw Maps",
+        "short": "Bloomberg GA Maps",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-17/georgia-gop-drops-plans-to-redraw-maps-during-special-session",
+        "publisher": "Bloomberg",
+        "sourceType": "news",
+        "hierarchyLevel": 6,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed"
+      },
+      "src-wikipedia-ga02": {
+        "id": "src-wikipedia-ga02",
+        "name": "Wikipedia — Georgia's 2nd congressional district",
+        "short": "Wikipedia GA-02",
+        "url": "https://en.wikipedia.org/wiki/Georgia%27s_2nd_congressional_district",
+        "publisher": "Wikipedia",
+        "sourceType": "secondary",
+        "hierarchyLevel": 7,
+        "dateAccessed": "2026-07-09",
+        "lastVerified": "2026-07-09",
+        "confidence": "unconfirmed",
+        "notes": "Used only for county-list corroboration, not as sole source. NEEDS REVIEW: Statistical Atlas lists Crisp County as part of GA-02, but this Wikipedia table does not — discrepancy unresolved against an official redistricting-plan document."
+      }
+    },
+    "ELECTION_EVENTS": [
+      {
+        "id": "evt-ga02-primary-day",
+        "milestone": "Primary election day (completed)",
+        "electionType": "primary",
+        "date": "2026-05-19",
+        "significance": "Georgia's 2026 primary. Both Sanford Bishop (D) and Matt Day (R) ran unopposed in GA-02 and advanced directly to the November 3 general election.",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ajc",
+          "src-wabe-candidates"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga02-general-reg-deadline",
+        "milestone": "Voter registration deadline — general",
+        "electionType": "general",
+        "date": "2026-10-05",
+        "significance": "Last day to register to vote for the November 3, 2026 general election (29 days before Election Day). NEEDS REVIEW: exact hour-of-day cutoff not independently re-confirmed against the live Georgia SOS calendar.",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-register"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga02-general-early-voting-open",
+        "milestone": "Early (in-person) voting opens — general",
+        "electionType": "general",
+        "date": "2026-10-13",
+        "significance": "Early in-person voting begins statewide, including all 29 GA-02 counties. Mandatory Saturday voting hours on Oct. 17 and Oct. 24; counties may add additional Sunday hours.",
+        "governingAuthority": "Georgia Secretary of State, county boards of elections",
+        "sourceIds": [
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga02-general-absentee-request-deadline",
+        "milestone": "Absentee ballot request deadline — general",
+        "electionType": "general",
+        "date": "2026-10-23",
+        "significance": "Deadline to request an absentee ballot for the November 3, 2026 general election (11 days before Election Day, per SB 202). Absentee ballot requests open approximately 78 days before Election Day (late summer 2026).",
+        "governingAuthority": "Georgia Secretary of State, county boards of elections",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-sb202"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga02-general-early-voting-close",
+        "milestone": "Early (in-person) voting closes — general",
+        "electionType": "general",
+        "date": "2026-10-30",
+        "significance": "Last day of early in-person voting ahead of the November 3, 2026 general election.",
+        "governingAuthority": "Georgia Secretary of State, county boards of elections",
+        "sourceIds": [
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga02-general-day",
+        "milestone": "General election day",
+        "electionType": "general",
+        "date": "2026-11-03",
+        "significance": "U.S. midterm general election. GA-02: Sanford Bishop (D, inc.) vs. Matt Day (R), both unopposed in their May 19 primaries. Statewide election administered under the December 2023 remedial congressional map, unchanged for 2026 after the legislature dropped redraw plans in its June 2026 special session.",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ajc",
+          "src-bloomberg-ga-redistricting"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      },
+      {
+        "id": "evt-ga02-general-runoff-day",
+        "milestone": "General election runoff (if triggered)",
+        "electionType": "general",
+        "date": "2026-12-01",
+        "significance": "Georgia requires a runoff if no candidate receives 50%+1 of the vote. Not expected to be triggered in GA-02 given only two candidates (Bishop and Day) are on the general-election ballot, which produces a simple-majority winner. NEEDS REVIEW: no third-party/independent GA-02 candidate was identified in research, but Georgia's high signature threshold for non-major-party congressional candidates means absence of a finding is not confirmation of absence.",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceIds": [
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "status": "estimated"
+      }
+    ],
+    "RULES": [
+      {
+        "id": "rule-ga-photo-id",
+        "topic": "Voter photo ID requirements",
+        "currentRule": "Georgia requires photo ID to vote in person: driver's license, state ID, U.S. passport, military ID, tribal ID, or a free Voter ID card issued by the county registrar. Absentee ballot applications and return envelopes require an ID number (driver's license/state ID number or last four digits of SSN), per SB 202 (2021).",
+        "status": "active",
+        "whyItMatters": "GA-02 voters across all 29 counties must present qualifying photo ID at the polls, and absentee voters must provide an ID number on both their application and return envelope. Voters lacking ID can obtain a free Voter ID card from their county registrar.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-voter-id-guide",
+          "src-ga-sb202"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: full current-cycle citation to the Georgia SOS voter-ID page was not independently re-fetched this research pass; verify exact accepted-ID list against sos.ga.gov before publishing."
+      },
+      {
+        "id": "rule-ga-absentee-request-window",
+        "topic": "Absentee ballot request window (SB 202)",
+        "currentRule": "Absentee ballot requests open approximately 78 days before Election Day and must be submitted no later than 11 days before Election Day (Oct. 23, 2026 for the Nov. 3 general). Still governed by SB 202 (2021), the Election Integrity Act.",
+        "status": "active",
+        "whyItMatters": "GA-02 voters who want to vote absentee must plan around a shorter request window than existed before 2021 — missing the 11-day cutoff means voting in person is the only remaining option.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb202",
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "SB 202 (2021), the Election Integrity Act. NEEDS REVIEW: exact hour-of-day cutoff for the 11-day request deadline not independently re-confirmed against a live SOS calendar document."
+      },
+      {
+        "id": "rule-ga-drop-box-restrictions",
+        "topic": "Ballot drop box restrictions (SB 202)",
+        "currentRule": "SB 202 (2021) restricts absentee ballot drop boxes to indoor locations at county election offices or early-voting sites, with reduced availability compared to 2020. There is no freestanding neighborhood drop box network. GA-02 voters should check the My Voter Page (mvp.sos.ga.gov) for county-approved drop box locations.",
+        "status": "active",
+        "whyItMatters": "GA-02's 29 counties — many rural — have fewer and less convenient drop box options than in 2020. Voters relying on drop-box return should confirm their county's specific indoor location and hours well before Election Day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb202",
+          "src-ga-my-voter-page"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "SB 202 (2021). Drop boxes restricted to indoor county election office / early-voting site locations only."
+      },
+      {
+        "id": "rule-ga-wrong-precinct-provisional",
+        "topic": "Wrong-precinct provisional ballot rule (SB 202)",
+        "currentRule": "Under SB 202, ballots cast at the wrong precinct on Election Day are not counted for precinct-specific races. Provisional ballots cast at the wrong precinct after 5:00 p.m. may be counted only for races the voter was otherwise eligible to vote in (e.g., federal and statewide races), not local down-ballot races tied to the correct precinct.",
+        "status": "active",
+        "whyItMatters": "GA-02 voters who show up at the wrong precinct on Election Day risk having some or all of their ballot rejected. Voters should confirm their correct polling location via My Voter Page before Election Day.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb202"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "SB 202 (2021), Election Integrity Act. Applies statewide, including all 29 GA-02 counties."
+      },
+      {
+        "id": "rule-ga-sb189-ballot-tabulation",
+        "topic": "Elimination of QR-code ballot tabulation (SB 189)",
+        "currentRule": "SB 189 (2024) eliminates QR-code-based ballot tabulation effective July 1, 2026. Georgia counties, including all 29 in GA-02, must move to a hand-marked, text-readable ballot format before the November 3, 2026 general election.",
+        "status": "active",
+        "whyItMatters": "This is a significant operational change to how GA-02 ballots are marked and counted. Voters and poll workers in every GA-02 county should expect a different ballot-marking process than in the 2022 and 2024 cycles.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sb189"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "SB 189 (2024), effective July 1, 2026. No repeal or delay identified in research."
+      },
+      {
+        "id": "rule-ga-runoff-mechanics",
+        "topic": "General election runoff mechanics",
+        "currentRule": "Georgia requires a runoff election if no candidate in a general-election race receives more than 50% of the vote. If triggered, the runoff is held approximately four weeks later. For the 2026 general election, the runoff date is December 1, 2026.",
+        "status": "watch",
+        "whyItMatters": "Not expected to apply in GA-02 given the two-candidate field (Bishop vs. Day), which produces a majority winner in the first count. Still relevant context for GA-02 voters following statewide or other down-ballot races that could go to a runoff.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-sos-elections"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: exact statutory citation and hour-of-day cutoffs not independently re-confirmed this pass. Runoff not expected in GA-02's two-candidate U.S. House race absent a late-qualifying third candidate."
+      },
+      {
+        "id": "rule-ga-redistricting-stability",
+        "topic": "Congressional map stability for 2026 (December 2023 remedial plan)",
+        "currentRule": "GA-02 is administered under the December 2023 remedial congressional map, redrawn to comply with a federal Alpha Phi Alpha Fraternity v. Raffensperger order (unrelated to GA-02's own boundaries, which stayed materially the same). The Georgia legislature considered redrawing maps in a June 2026 special session but dropped those plans, leaving GA-02 unchanged for 2026.",
+        "status": "active",
+        "whyItMatters": "GA-02 voters can rely on the same district boundaries used in the 2024 election. No pending litigation was identified that threatens GA-02's map for the 2026 cycle.",
+        "governingLevel": "statewide",
+        "sourceIds": [
+          "src-ga-legis-redistricting",
+          "src-bloomberg-ga-redistricting"
+        ],
+        "confidence": "unconfirmed",
+        "lastVerified": "2026-07-09",
+        "needsReview": true,
+        "detail": "NEEDS REVIEW: the specific enacted-plan PDF for the Dec. 2023 remedial congressional map was not independently re-fetched from legis.ga.gov in this pass; corroborated via Bloomberg news reporting instead. Also NEEDS REVIEW: Statistical Atlas lists Crisp County as part of GA-02, but current Wikipedia table does not — unresolved discrepancy."
+      }
+    ],
+    "RESOURCES": [
+      {
+        "id": "res-register",
+        "label": "Register to vote",
+        "description": "Georgia's official online voter registration portal. Confirm eligibility and deadlines for the November 3, 2026 general election.",
+        "url": "https://registertovote.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-register",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-locations",
+        "label": "Find voting locations",
+        "description": "Georgia My Voter Page — find your polling place, early-voting location, and sample ballot.",
+        "url": "https://mvp.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-my-voter-page",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-ballot-box",
+        "label": "Find ballot boxes",
+        "description": "County-approved absentee ballot drop box locations, listed via the My Voter Page. Georgia law (SB 202, 2021) restricts drop boxes to indoor locations at county election offices or early-voting sites, with reduced availability compared to 2020.",
+        "url": "https://mvp.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-my-voter-page",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-check-reg",
+        "label": "Check registration status",
+        "description": "Confirm your Georgia voter registration status, polling place, and ballot details via the My Voter Page.",
+        "url": "https://mvp.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-my-voter-page",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-track",
+        "label": "Track your ballot",
+        "description": "Secure My Absentee Ballot tracker — check the status of your absentee ballot request and return.",
+        "url": "https://securemyabsenteeballot.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-absentee-tracker",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-verify",
+        "label": "Voter ID information",
+        "description": "Official Georgia SOS guide to voter ID requirements at the polls and for absentee ballots. NEEDS REVIEW: exact live URL not independently re-fetched this research pass; the SOS elections hub is a reliable fallback.",
+        "url": "https://sos.ga.gov/how-to-guide/how-guide-voter-id-requirements",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-voter-id-guide",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-results",
+        "label": "Election results",
+        "description": "Official Georgia statewide election results portal. NEEDS REVIEW: exact live results-night domain not independently re-verified this research pass; the SOS elections hub links to results as a fallback.",
+        "url": "https://results.sos.ga.gov",
+        "governingAuthority": "Georgia Secretary of State",
+        "sourceType": "official-state",
+        "sourceId": "src-ga-results",
+        "lastVerified": "2026-07-09"
+      },
+      {
+        "id": "res-ga02-county-offices",
+        "label": "GA-02 county election office directory",
+        "description": "FVAP-aggregated directory of county board-of-elections phone and contact information for all 29 GA-02 counties. NEEDS REVIEW: individual county website URLs were not fully captured; Decatur County has no listed phone number (email only).",
+        "url": "https://www.fvap.gov/xml-api/Georgia/election-offices.xml",
+        "governingAuthority": "Federal Voting Assistance Program (aggregating Georgia county boards of elections)",
+        "sourceType": "official-county",
+        "sourceId": "src-ga-fvap-county-offices",
+        "lastVerified": "2026-07-09"
+      }
+    ],
+    "UPDATES": [
+      {
+        "id": "upd-ga02-001",
+        "title": "GA-02 dashboard initialized from wa-03 template — 14 sources, 7 events, 7 rules wired",
+        "fieldChanged": "Dashboard configuration",
+        "oldValue": "Not configured",
+        "newValue": "Initial build July 9, 2026, cloned from the WA-03 template structure. All 14 sources (Georgia SOS, My Voter Page, absentee tracker, voter ID guide, results portal, GA legislature, SB 202, SB 189, FVAP county directory, AJC, WABE, WSB-TV, Bloomberg, Wikipedia) recorded from primary-source research. All 7 election events and 7 voting rules researched from Georgia SOS and statutory sources, but all marked needsReview/unconfirmed pending human QA. Candidates: Sanford Bishop (D, inc.) vs. Matt Day (R), both unopposed in the May 19, 2026 primary.",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ajc",
+          "src-wabe-candidates"
+        ],
+        "detectedAt": "2026-07-09T18:00:00Z",
+        "severity": "low",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      },
+      {
+        "id": "upd-ga02-002",
+        "title": "SB 189 eliminates QR-code ballot tabulation effective July 1, 2026",
+        "fieldChanged": "Ballot tabulation method",
+        "oldValue": "QR-code-based ballot tabulation used in prior cycles.",
+        "newValue": "Effective July 1, 2026, SB 189 (2024) requires hand-marked, text-readable ballots statewide, including all 29 GA-02 counties, ahead of the November 3, 2026 general election.",
+        "sourceIds": [
+          "src-ga-sb189"
+        ],
+        "detectedAt": "2026-07-09T18:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "public"
+      },
+      {
+        "id": "upd-ga02-003",
+        "title": "All rules and events flagged for county-level and legislative-text verification",
+        "fieldChanged": "QA status",
+        "oldValue": "Not yet reviewed",
+        "newValue": "7 voting rules and 7 election events all marked needsReview: true, confidence: unconfirmed (lastVerified 2026-07-09). Verify exact hour-of-day cutoffs against a live Georgia SOS calendar document, resolve the Crisp County inclusion discrepancy against an official redistricting-plan text, and confirm the current voter-ID accepted-list citation directly from sos.ga.gov before publish.",
+        "sourceIds": [
+          "src-ga-sos-elections",
+          "src-ga-legis-redistricting"
+        ],
+        "detectedAt": "2026-07-09T18:00:00Z",
+        "severity": "medium",
+        "reviewState": "new",
+        "visibility": "internal_only"
+      }
+    ],
+    "CONFLICTS": [
+      {
+        "id": "conf-ga02-001",
+        "factInQuestion": "Whether Crisp County is part of GA-02.",
+        "sourceAId": "src-wikipedia-ga02",
+        "sourceAClaim": "Wikipedia's current county table for Georgia's 2nd congressional district does not list Crisp County among GA-02's 29 counties.",
+        "sourceBId": "src-ga-legis-redistricting",
+        "sourceBClaim": "Statistical Atlas (a secondary/tertiary source, not independently re-verified against the Georgia General Assembly's official redistricting-plan text in this research pass) lists Crisp County as part of GA-02.",
+        "whyItMatters": "If Crisp County voters are incorrectly included or excluded from GA-02's voter-facing content, they could be directed to the wrong district's dashboard, candidates, or polling information.",
+        "suggestedReviewAction": "Resolve against the official Georgia General Assembly redistricting-plan document at legis.ga.gov/joint-office/reapportionment before publishing the county list to voter-facing content.",
+        "severity": "medium",
+        "status": "unresolved",
+        "createdAt": "2026-07-09T18:00:00Z"
+      }
+    ],
+    "NEWS": [
+      {
+        "id": "news-ga02-001",
+        "headline": "US House District 2: Bishop avoids primary challenge in SW Georgia",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/04/us-house-district-2-bishop-avoids-primary-challenge-in-sw-georgia/",
+        "publishedAt": "2026-04-01",
+        "relevanceSummary": "Reports that Rep. Sanford Bishop (D) drew no primary challenger ahead of the May 19, 2026 Georgia primary, confirming his path to a general-election rematch-free run against the eventual GOP nominee.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-002",
+        "headline": "Georgia GOP Drops Plans to Redraw Maps During Special Session",
+        "sourceName": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-17/georgia-gop-drops-plans-to-redraw-maps-during-special-session",
+        "publishedAt": "2026-06-17",
+        "relevanceSummary": "Georgia's GOP-controlled legislature considered redrawing congressional maps in a June 2026 special session but dropped those plans, leaving the December 2023 remedial map — and GA-02's boundaries — unchanged for the November 3, 2026 general election.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-003",
+        "headline": "2026 Georgia candidates tracker",
+        "sourceName": "WABE",
+        "url": "https://www.wabe.org/2026georgiacandidates/",
+        "publishedAt": "2026-05-19",
+        "relevanceSummary": "Confirms Sanford Bishop (D) and Matt Day (R) as the two GA-02 general-election candidates following their unopposed May 19, 2026 primary wins.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-004",
+        "headline": "Georgia general election 2026: Candidates for U.S. Senate, all 14 U.S. House seats",
+        "sourceName": "WSB-TV",
+        "url": "https://www.wsbtv.com/news/local/georgia-general-election-2026-candidates-us-senate-all-14-us-house-seats/TCGX3E477BG7FCEATCR67KRDBQ/",
+        "publishedAt": "2026-05-20",
+        "relevanceSummary": "Statewide roundup of Georgia's 2026 U.S. House general-election matchups, confirming GA-02 as Bishop (D) vs. Day (R).",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      }
+    ],
+    "LAST_REFRESH": {
+      "id": "run-2026-07-09-ga02-initial-build",
+      "startedAt": "2026-07-09T18:00:00Z",
+      "completedAt": "2026-07-09T19:00:00Z",
+      "triggerType": "manual",
+      "sourcesChecked": 14,
+      "updatesCreated": 0,
+      "conflictsCreated": 0,
+      "errors": [],
+      "summary": "Initial WA-03-cloned build for GA-02, populated from primary-source research (Georgia Secretary of State, SB 202, SB 189, FVAP county directory, and dated news reporting). All election events and voting rules remain marked needsReview: true and confidence: unconfirmed pending human QA, including resolution of the Crisp County inclusion discrepancy and confirmation of exact hour-of-day deadline cutoffs against a live SOS calendar document."
+    },
+    "NEXT_REFRESH_AT": "2026-07-16T18:00:00Z",
+    "WEEKLY_REPORT": {
+      "id": "wr-ga02-2026-w28",
+      "periodStart": "2026-07-09",
+      "periodEnd": "2026-07-09",
+      "sourcesChecked": 14,
+      "newUpdates": 3,
+      "conflictsCreated": 1,
+      "conflictsResolved": 0,
+      "deadlinesChanged": 0,
+      "rulesChanged": 0,
+      "newsItems": 4,
+      "needsReview": 14,
+      "sourceErrors": 0,
+      "summary": "Initial build for GA-02, cloned from the WA-03 dashboard template ahead of the November 3, 2026 general election. Sanford Bishop (D, inc.) and Matt Day (R) both ran unopposed in the May 19, 2026 primary and will face off in the general. Key unresolved conflict: whether Crisp County is part of GA-02 (Statistical Atlas says yes, current Wikipedia table says no). General-election calendar: registration deadline Oct 5, early voting Oct 13-30, absentee request deadline Oct 23, Election Day Nov 3, runoff (if triggered, not expected in this two-candidate race) Dec 1. SB 189's elimination of QR-code ballot tabulation (effective July 1, 2026) is a significant operational change for all 29 GA-02 counties. All 14 sources verified as of July 9, 2026. All events and rules flagged needsReview pending county-specific and statutory-text confirmation.",
+      "generatedAt": "2026-07-09T18:00:00Z"
+    }
+  }
+}
