@@ -2,7 +2,7 @@
   "version": "1",
   "dataAsOf": "2026-07-09",
   "updatedAt": "2026-07-09T19:00:00Z",
-  "exportedAt": "2026-07-09T23:28:04.273Z",
+  "exportedAt": "2026-07-10T21:03:03.418Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -346,7 +346,7 @@
           "src-ajc",
           "src-bloomberg-ga-redistricting"
         ],
-        "confidence": "unconfirmed",
+        "confidence": "high",
         "lastVerified": "2026-07-09",
         "status": "estimated"
       },
