@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-09",
-  "updatedAt": "2026-07-09T19:00:00Z",
-  "exportedAt": "2026-07-10T21:03:03.418Z",
+  "dataAsOf": "2026-07-10",
+  "updatedAt": "2026-07-10T21:44:15.109Z",
+  "exportedAt": "2026-07-10T21:47:18.949Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-10",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-10",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -660,20 +660,30 @@
         "relevanceSummary": "Statewide roundup of Georgia's 2026 U.S. House general-election matchups, confirming GA-02 as Bishop (D) vs. Day (R).",
         "tag": "ballot-access",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0di1k8b",
+        "headline": "Georgia's State Election Board approved two new election rules Wednesday aimed at improving election security and transparency",
+        "sourceName": "The Augusta Press",
+        "url": "https://www.facebook.com/AugustaPress/posts/georgias-state-election-board-approved-two-new-election-rules-wednesday-aimed-at/1445110007637660/",
+        "publishedAt": "2026-07-09",
+        "relevanceSummary": "Georgia’s State Election Board has adopted two new statewide election rules dealing with security and transparency, and the article also notes changes expanding early voting and requiring IDs for absentee ballots; these statewide procedures directly govern how GA-02 voters register, cast ballots in person or by mail, and what identification they must present.[9]",
+        "tag": "rule-change",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-09-ga02-initial-build",
-      "startedAt": "2026-07-09T18:00:00Z",
-      "completedAt": "2026-07-09T19:00:00Z",
-      "triggerType": "manual",
-      "sourcesChecked": 14,
-      "updatesCreated": 0,
-      "conflictsCreated": 0,
+      "id": "run-2026-07-10-ga02-auto",
+      "startedAt": "2026-07-10T21:43:36.878Z",
+      "completedAt": "2026-07-10T21:44:15.109Z",
+      "triggerType": "scheduled",
+      "sourcesChecked": 9,
+      "updatesCreated": 1,
+      "conflictsCreated": 1,
       "errors": [],
-      "summary": "Initial WA-03-cloned build for GA-02, populated from primary-source research (Georgia Secretary of State, SB 202, SB 189, FVAP county directory, and dated news reporting). All election events and voting rules remain marked needsReview: true and confidence: unconfirmed pending human QA, including resolution of the Crisp County inclusion discrepancy and confirmation of exact hour-of-day deadline cutoffs against a live SOS calendar document."
+      "summary": "Automated refresh completed 2026-07-10 for GA-02. Sources checked: 9. LLM verifications: 10. 2 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
     },
-    "NEXT_REFRESH_AT": "2026-07-16T18:00:00Z",
+    "NEXT_REFRESH_AT": "2026-07-17T21:44:15.109Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
