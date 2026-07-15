@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-10",
-  "updatedAt": "2026-07-10T21:44:15.109Z",
-  "exportedAt": "2026-07-10T21:47:18.949Z",
+  "dataAsOf": "2026-07-15",
+  "updatedAt": "2026-07-15T06:15:54.104Z",
+  "exportedAt": "2026-07-15T06:39:17.359Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-10",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -243,7 +243,7 @@
         "sourceType": "news",
         "hierarchyLevel": 6,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-15",
         "confidence": "unconfirmed"
       },
       "src-wikipedia-ga02": {
@@ -670,20 +670,50 @@
         "relevanceSummary": "Georgia’s State Election Board has adopted two new statewide election rules dealing with security and transparency, and the article also notes changes expanding early voting and requiring IDs for absentee ballots; these statewide procedures directly govern how GA-02 voters register, cast ballots in person or by mail, and what identification they must present.[9]",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0myjtyp",
+        "headline": "DOJ warns Georgia election officials of possible prosecution if noncitizens are voting",
+        "sourceName": "CBS News Atlanta",
+        "url": "https://www.cbsnews.com/atlanta/news/doj-warns-georgia-election-officials-of-possible-prosecution-if-noncitizens-are-voting/",
+        "publishedAt": "2026-07-11",
+        "relevanceSummary": "The U.S. Department of Justice warned Georgia election officials they could face federal prosecution if noncitizens are found voting in federal elections, underscoring enforcement around voter registration verification and eligibility that applies statewide, including GA-02.[3]",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-03bjz9g",
+        "headline": "Georgia election board adopts new rules targeting election mistrust",
+        "sourceName": "The Current",
+        "url": "https://thecurrentga.org/2026/07/10/georgia-election-board-adopts-new-rules-targeting-election-mistrust/",
+        "publishedAt": "2026-07-10",
+        "relevanceSummary": "The State Election Board approved new rules requiring vote tabulation to occur directly from paper ballots rather than electronic copies, which will change how votes are counted and audited in every Georgia county, including those in GA-02.[1]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0n8bdd6",
+        "headline": "Georgia ballot audit finds 23 discrepancies out of more than 1.1 million ballots, Secretary of State says",
+        "sourceName": "CBS News Atlanta",
+        "url": "https://www.cbsnews.com/atlanta/news/georgia-ballot-audit-finds-23-discrepancies-out-of-more-than-1-1-million-ballots-secretary-of-state-says/",
+        "publishedAt": "2026-07-03",
+        "relevanceSummary": "A statewide ballot image audit of the June 16 runoff found only 23 discrepancies among more than 1.1 million ballots and confirmed all contest outcomes, signaling how Georgia’s elections are being audited and validated for all voters, including those in GA-02.[4]",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-10-ga02-auto",
-      "startedAt": "2026-07-10T21:43:36.878Z",
-      "completedAt": "2026-07-10T21:44:15.109Z",
+      "id": "run-2026-07-15-ga02-auto",
+      "startedAt": "2026-07-15T06:14:29.282Z",
+      "completedAt": "2026-07-15T06:15:54.104Z",
       "triggerType": "scheduled",
       "sourcesChecked": 9,
-      "updatesCreated": 1,
-      "conflictsCreated": 1,
+      "updatesCreated": 3,
+      "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-10 for GA-02. Sources checked: 9. LLM verifications: 10. 2 lastVerified bumps on unchanged sources. 1 conflict flagged for human review."
+      "summary": "Automated refresh completed 2026-07-15 for GA-02. Sources checked: 9. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-17T21:44:15.109Z",
+    "NEXT_REFRESH_AT": "2026-07-22T06:15:54.104Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
