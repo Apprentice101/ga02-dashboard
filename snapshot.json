@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-15",
-  "updatedAt": "2026-07-15T06:15:54.104Z",
-  "exportedAt": "2026-07-15T06:39:17.359Z",
+  "dataAsOf": "2026-07-22",
+  "updatedAt": "2026-07-22T06:30:00.693Z",
+  "exportedAt": "2026-07-22T06:50:32.742Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-07-22",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -700,20 +700,30 @@
         "relevanceSummary": "A statewide ballot image audit of the June 16 runoff found only 23 discrepancies among more than 1.1 million ballots and confirmed all contest outcomes, signaling how Georgia’s elections are being audited and validated for all voters, including those in GA-02.[4]",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0ftra09",
+        "headline": "Georgia Voting Information",
+        "sourceName": "VOTE411",
+        "url": "https://www.vote411.org/georgia",
+        "publishedAt": "2026-07-05",
+        "relevanceSummary": "This statewide voter information resource outlines Georgia’s current rules for voter registration deadlines, absentee/mail-in ballot requests and returns, early voting dates, polling hours, and open primary procedures.[8] All of these rules apply directly to GA-02 voters and guide how they can register, choose party ballots, vote early, and return mail ballots.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-15-ga02-auto",
-      "startedAt": "2026-07-15T06:14:29.282Z",
-      "completedAt": "2026-07-15T06:15:54.104Z",
+      "id": "run-2026-07-22-ga02-auto",
+      "startedAt": "2026-07-22T06:29:25.490Z",
+      "completedAt": "2026-07-22T06:30:00.693Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 9,
-      "updatesCreated": 3,
+      "sourcesChecked": 8,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-15 for GA-02. Sources checked: 9. LLM verifications: 10. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-22 for GA-02. Sources checked: 8. LLM verifications: 6. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-22T06:15:54.104Z",
+    "NEXT_REFRESH_AT": "2026-07-29T06:30:00.693Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
