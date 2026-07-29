@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-22",
-  "updatedAt": "2026-07-22T06:30:00.693Z",
-  "exportedAt": "2026-07-22T21:15:33.302Z",
+  "dataAsOf": "2026-07-29",
+  "updatedAt": "2026-07-29T06:32:35.243Z",
+  "exportedAt": "2026-07-29T06:54:00.189Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -243,7 +243,7 @@
         "sourceType": "news",
         "hierarchyLevel": 6,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-15",
+        "lastVerified": "2026-07-29",
         "confidence": "unconfirmed"
       },
       "src-wikipedia-ga02": {
@@ -710,20 +710,60 @@
         "relevanceSummary": "This statewide voter information resource outlines Georgia’s current rules for voter registration deadlines, absentee/mail-in ballot requests and returns, early voting dates, polling hours, and open primary procedures.[8] All of these rules apply directly to GA-02 voters and guide how they can register, choose party ballots, vote early, and return mail ballots.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0qmm6wh",
+        "headline": "Marcye Scott, Everton Blair head to runoff in Georgia's 13th Congressional District special election",
+        "sourceName": "CBS News Atlanta",
+        "url": "https://www.cbsnews.com/atlanta/news/georgia-13th-congressional-district-special-election-results/",
+        "publishedAt": "2026-07-28",
+        "relevanceSummary": "While focused on GA-13, this report describes Georgia’s rules for special elections, runoffs, and candidate qualification for the November ballot, offering GA-02 voters a practical example of statewide procedures that will also govern their own congressional contests.[9]",
+        "tag": "candidates",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0kstxio",
+        "headline": "Georgia lawmakers give final approval to bill delaying QR-code voting ban and requiring hand recounts in close races",
+        "sourceName": "FOX 5 Atlanta",
+        "url": "https://www.fox5atlanta.com/tag/politics/ga-politics",
+        "publishedAt": "2026-07-23",
+        "relevanceSummary": "The article reports on a statewide elections bill that will keep Georgia’s current QR-code ballot system in place through 2028 and add mandatory hand recounts for certain close statewide races, changing how November general election ballots are cast and counted for all Georgia voters, including those in GA-02.[4]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0kyzaan",
+        "headline": "Republican-led Senate backs delay of QR-code voting ban, adds hand-count requirement for top races",
+        "sourceName": "Capitol Beat News Service",
+        "url": "https://capitol-beat.org/",
+        "publishedAt": "2026-07-22",
+        "relevanceSummary": "This piece details Senate action on a statewide elections measure that postpones the phase-out of QR-code ballots while requiring hand counts of top-ticket races in close contests, directly affecting how GA-02 voters’ ballots will be designed and how close statewide results might be verified in November.[1]",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0a64qwc",
+        "headline": "The Georgia Vote | Voters prepare for 13th district special election",
+        "sourceName": "WSB-TV",
+        "url": "https://www.youtube.com/watch?v=BbqsrYe39aA",
+        "publishedAt": "2026-07-12",
+        "relevanceSummary": "This segment discusses state-level decisions by the Secretary of State on candidate disqualification for failure to pay qualification fees and covers a federal court ruling limiting DOJ access to Georgia election workers’ data, illustrating statewide candidate qualification rules and legal protections that also apply to GA-02 election workers and voters.[8]",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-22-ga02-auto",
-      "startedAt": "2026-07-22T06:29:25.490Z",
-      "completedAt": "2026-07-22T06:30:00.693Z",
+      "id": "run-2026-07-29-ga02-auto",
+      "startedAt": "2026-07-29T06:30:55.403Z",
+      "completedAt": "2026-07-29T06:32:35.243Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 8,
-      "updatesCreated": 1,
+      "sourcesChecked": 9,
+      "updatesCreated": 4,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-22 for GA-02. Sources checked: 8. LLM verifications: 6. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-07-29 for GA-02. Sources checked: 9. LLM verifications: 11. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-07-29T06:30:00.693Z",
+    "NEXT_REFRESH_AT": "2026-08-05T06:32:35.243Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
