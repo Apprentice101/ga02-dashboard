@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-07-29",
-  "updatedAt": "2026-07-29T06:32:35.243Z",
-  "exportedAt": "2026-07-29T06:54:00.189Z",
+  "dataAsOf": "2026-08-05",
+  "updatedAt": "2026-08-05T06:27:11.541Z",
+  "exportedAt": "2026-08-05T06:47:39.407Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-08-05",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-05",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-22",
+        "lastVerified": "2026-08-05",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -753,17 +753,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-07-29-ga02-auto",
-      "startedAt": "2026-07-29T06:30:55.403Z",
-      "completedAt": "2026-07-29T06:32:35.243Z",
+      "id": "run-2026-08-05-ga02-auto",
+      "startedAt": "2026-08-05T06:26:46.570Z",
+      "completedAt": "2026-08-05T06:27:11.541Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 9,
-      "updatesCreated": 4,
+      "sourcesChecked": 8,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-07-29 for GA-02. Sources checked: 9. LLM verifications: 11. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-05 for GA-02. Sources checked: 8. LLM verifications: 6. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-05T06:32:35.243Z",
+    "NEXT_REFRESH_AT": "2026-08-12T06:27:11.541Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
