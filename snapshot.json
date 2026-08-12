@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-05",
-  "updatedAt": "2026-08-05T06:27:11.541Z",
-  "exportedAt": "2026-08-05T06:47:39.407Z",
+  "dataAsOf": "2026-08-12",
+  "updatedAt": "2026-08-12T05:30:01.039Z",
+  "exportedAt": "2026-08-12T05:47:01.363Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -129,7 +129,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-09",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: exact live URL not independently re-fetched this pass; SOS elections hub is a reliable fallback."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-05",
+        "lastVerified": "2026-08-12",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -750,20 +750,30 @@
         "relevanceSummary": "This segment discusses state-level decisions by the Secretary of State on candidate disqualification for failure to pay qualification fees and covers a federal court ruling limiting DOJ access to Georgia election workers’ data, illustrating statewide candidate qualification rules and legal protections that also apply to GA-02 election workers and voters.[8]",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0x34hee",
+        "headline": "Democrats vying for 2nd Congressional District seat face off in debate ahead of primary",
+        "sourceName": "WCTV",
+        "url": "https://www.wctv.tv/2026/08/11/democrats-vying-2nd-congressional-district-seat-face-off-debate-ahead-primary/",
+        "publishedAt": "2026-08-11",
+        "relevanceSummary": "This local report covers GA-02 itself and is timely for voters following the district’s election calendar. It may help voters track the candidates and the immediate campaign context, though it appears focused on the race rather than election procedures.",
+        "tag": "candidates",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-05-ga02-auto",
-      "startedAt": "2026-08-05T06:26:46.570Z",
-      "completedAt": "2026-08-05T06:27:11.541Z",
+      "id": "run-2026-08-12-ga02-auto",
+      "startedAt": "2026-08-12T05:29:39.888Z",
+      "completedAt": "2026-08-12T05:30:01.039Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 0,
+      "updatesCreated": 1,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-05 for GA-02. Sources checked: 8. LLM verifications: 6. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-12 for GA-02. Sources checked: 8. LLM verifications: 6. 5 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-12T06:27:11.541Z",
+    "NEXT_REFRESH_AT": "2026-08-19T05:30:01.039Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
