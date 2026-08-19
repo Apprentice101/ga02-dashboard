@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-12",
-  "updatedAt": "2026-08-12T05:30:01.039Z",
-  "exportedAt": "2026-08-12T05:47:01.363Z",
+  "dataAsOf": "2026-08-19",
+  "updatedAt": "2026-08-19T04:39:03.130Z",
+  "exportedAt": "2026-08-19T05:07:13.324Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -243,7 +243,7 @@
         "sourceType": "news",
         "hierarchyLevel": 6,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-07-29",
+        "lastVerified": "2026-08-19",
         "confidence": "unconfirmed"
       },
       "src-wikipedia-ga02": {
@@ -760,20 +760,100 @@
         "relevanceSummary": "This local report covers GA-02 itself and is timely for voters following the district’s election calendar. It may help voters track the candidates and the immediate campaign context, though it appears focused on the race rather than election procedures.",
         "tag": "candidates",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0e4rg4v",
+        "headline": "Georgia passed on election upgrades. A Princeton researcher exploited weakness in system.",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/08/georgia-passed-on-election-upgrades-a-princeton-researcher-exploited-weaknesses-in-system/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "This article describes how Georgia officials declined certain election-system upgrades and a Princeton researcher later demonstrated vulnerabilities, while state officials defend the current voting system as safe and confirmed by audits; statewide security and equipment decisions affect the voting experience and trust in results for GA‑02 voters as well.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0o464rs",
+        "headline": "Key dates to know for the November 3, 2026 election",
+        "sourceName": "WRBL",
+        "url": "https://www.yahoo.com/news/politics/articles/key-dates-know-november-3-175009068.html",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "This Columbus-focused article, covering Muscogee County (part of GA‑02), notes that August 17 is the first day to request a mail absentee ballot for the November 3 election and directs residents to the Muscogee County Elections and Registration page and phone line for absentee request and election information, making it directly relevant to GA‑02 voters in Columbus.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0blwfp0",
+        "headline": "Georgia absentee ballot registration for midterm elections to open through Oct. 23",
+        "sourceName": "WSB-TV",
+        "url": "https://www.wsbtv.com/news/local/atlanta/georgia-absentee-ballot-registration-midterm-elections-open-through-oct-23/5MO7Q3KZ5RDQ5BCZRSGBSC6KNA/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "The report explains how Georgia voters can apply for absentee ballots by submitting requests to the Secretary of State’s office via online form, email, fax, in person, or mail, and reiterates the statewide absentee-application deadline—procedures and options that directly govern GA‑02 voters who plan to vote by mail.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0aeylxk",
+        "headline": "Two Minutes Now Can Save Your Vote in November",
+        "sourceName": "Cobb County Courier",
+        "url": "https://cobbcountycourier.com/2026/08/two-minutes-now-can-save-your-vote-in-november-check-your-registration-today/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "The article urges Georgians to check and update their voter-registration records via the Secretary of State’s My Voter Page, explaining that each registered voter has a statewide record and emphasizing that verifying registration and polling-place information early can prevent problems in November, advice that applies to GA‑02 voters as well.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0m4filq",
+        "headline": "Georgia absentee ballots open for the November 2026 Election",
+        "sourceName": "41NBC / WMGT",
+        "url": "https://www.41nbc.com/georgia-voters-can-now-begin-requesting-absentee-ballots-for-november-election/",
+        "publishedAt": "2026-08-17",
+        "relevanceSummary": "The article explains that as of August 17, Georgia voters can begin requesting absentee mail ballots for the November 3 general election, details the required information and ID (driver’s license/state ID number or a copy of an accepted ID) on the application, and notes that ballots can be returned by mail, drop box, or directly to the county elections office—procedures that apply to GA‑02 voters statewide.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0cc6ptg",
+        "headline": "Georgia 2026 Voter Guide",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/08/georgia-2026-voter-guide/",
+        "publishedAt": "2026-08-14",
+        "relevanceSummary": "This statewide voter guide lists key 2026 general-election dates (voter-registration deadline, absentee request deadline, advance in-person voting window, poll hours), and explains how Georgia voters can confirm registration status, find their assigned polling place, view sample ballots, and locate absentee ballot return sites through the Secretary of State’s My Voter Page—information directly governing GA‑02 voters’ procedures.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-08qes5u",
+        "headline": "4 key dates to know in Georgia’s 2026 midterm elections",
+        "sourceName": "Courier Georgia",
+        "url": "https://couriergeorgia.com/news/elections/key-dates-2026-midterm-elections/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This piece highlights four statewide deadlines, including the last day to register for the general election, the cutoff to request an absentee ballot, and the requirement that mailed absentee ballots reach county election offices by 7 p.m. on Election Day, giving GA‑02 voters a clear timeline for registration and mail-ballot planning.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0dpo9qw",
+        "headline": "First time voting in Georgia? Here’s what to know for the 2026 midterms",
+        "sourceName": "Courier Georgia",
+        "url": "https://couriergeorgia.com/news/elections/voting-in-georgia/",
+        "publishedAt": "2026-08-13",
+        "relevanceSummary": "This explainer outlines Georgia’s statewide procedures for registering to vote, Election Day in‑person voting hours and polling place rules, and absentee-by-mail voting, including how to request and return mail ballots and use ballot drop boxes, which all apply uniformly to voters in GA‑02.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-12-ga02-auto",
-      "startedAt": "2026-08-12T05:29:39.888Z",
-      "completedAt": "2026-08-12T05:30:01.039Z",
+      "id": "run-2026-08-19-ga02-auto",
+      "startedAt": "2026-08-19T04:37:51.854Z",
+      "completedAt": "2026-08-19T04:39:03.130Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 8,
-      "updatesCreated": 1,
+      "sourcesChecked": 9,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-12 for GA-02. Sources checked: 8. LLM verifications: 6. 5 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-19 for GA-02. Sources checked: 9. LLM verifications: 9. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-19T05:30:01.039Z",
+    "NEXT_REFRESH_AT": "2026-08-26T04:39:03.130Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
