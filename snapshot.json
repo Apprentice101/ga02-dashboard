@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-19",
-  "updatedAt": "2026-08-19T04:39:03.130Z",
-  "exportedAt": "2026-08-19T05:07:13.324Z",
+  "dataAsOf": "2026-08-26",
+  "updatedAt": "2026-08-26T04:42:27.138Z",
+  "exportedAt": "2026-08-26T05:15:13.985Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-19",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-12",
+        "lastVerified": "2026-08-26",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -840,20 +840,100 @@
         "relevanceSummary": "This explainer outlines Georgia’s statewide procedures for registering to vote, Election Day in‑person voting hours and polling place rules, and absentee-by-mail voting, including how to request and return mail ballots and use ballot drop boxes, which all apply uniformly to voters in GA‑02.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0a5he74",
+        "headline": "What the Supreme Court’s mail-in voting ruling means for Georgia",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/08/what-the-supreme-courts-mail-in-voting-ruling-means-for-georgia/",
+        "publishedAt": "2026-08-26",
+        "relevanceSummary": "Explains how a recent U.S. Supreme Court decision affecting mail-in voting interacts with Georgia’s existing absentee-by-mail rules, clarifying that Georgia’s procedures for requesting and returning mail ballots and related deadlines remain in place for now, which directly affects how GA-02 voters can cast ballots by mail in November.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0erpyb9",
+        "headline": "New Postal Service Rule Still Up In The Air After Supreme Court Ruling—What To Know Before Midterms",
+        "sourceName": "Forbes",
+        "url": "https://www.forbes.com/sites/alisondurkee/2026/08/24/will-new-usps-rule-impact-your-ballot-in-november-what-to-know/",
+        "publishedAt": "2026-08-25",
+        "relevanceSummary": "Explains that the USPS rule may change how election officials handle voter data and ballot mailing timelines, while noting that voters themselves in states like Georgia will still request and return mail ballots through state processes, giving GA-02 voters practical guidance on registering and requesting absentee ballots early.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0g7aaqa",
+        "headline": "Georgia leaders look at possible changes to voting system",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/08/24/georgia-leaders-hear-testimony-new-voting-system/",
+        "publishedAt": "2026-08-24",
+        "relevanceSummary": "Covers testimony to Georgia officials about potentially shifting to a new statewide voting system for 2028, signaling long‑term changes in voting equipment and procedures that would eventually affect GA-02’s polling places even though no immediate changes apply for the 2026 general election.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-07o3fqt",
+        "headline": "USPS makes new rules for mail-in ballots",
+        "sourceName": "KVIA",
+        "url": "https://kvia.com/news/2026/08/23/usps-makes-new-rules-for-mail-in-ballots/",
+        "publishedAt": "2026-08-23",
+        "relevanceSummary": "Describes new USPS requirements that states attach unique barcodes and submit basic voter information for every mail-in ballot, which will apply to Georgia’s absentee-by-mail system and may impact how quickly GA-02 ballots are processed and tracked ahead of the general election.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0wdy99q",
+        "headline": "US Postal Service rule tightens mail-in voting despite court challenges",
+        "sourceName": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/aug/21/us-postal-service-mail-in-voter-rule",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "Details how the USPS’s new rule will require states, including Georgia, to adopt additional mail ballot procedures and share voter lists with federal agencies before ballots are delivered, providing GA-02 voters context on possible administrative changes affecting absentee-by-mail for the November general.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0qqlnxy",
+        "headline": "USPS publishes new rule requiring states to submit voter data before mailing ballots",
+        "sourceName": "WJAR / TurnTo10",
+        "url": "https://turnto10.com/news/nation-world/usps-publishes-new-rule-requiring-states-to-submit-voter-data-before-mailing-ballots-mail-in-united-states-postal-service-vote-voters-voter-fraud-politics-president-donald-trump",
+        "publishedAt": "2026-08-22",
+        "relevanceSummary": "Reports that the U.S. Postal Service has finalized a rule requiring states to upload voter and ballot-tracking information to a federal portal before absentee and mail ballots enter the mail stream, a nationwide change that Georgia election officials must follow and that could affect when GA-02 voters receive their mail ballots.",
+        "tag": "rule-change",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0ex0s5q",
+        "headline": "Georgia voter ID rules for in-person and mail voting",
+        "sourceName": "VoteRiders",
+        "url": "https://voteriders.org/states/georgia/check-id-rules/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "Outlines Georgia’s current voter ID requirements, including accepted photo IDs for in‑person voting, the need to provide a driver’s license or state ID number for absentee-by-mail ballots, and the steps to cure a provisional ballot—rules that govern how GA-02 voters must identify themselves at the polls and on mail ballot envelopes.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0mmgdag",
+        "headline": "Georgia election law changes explained: What will be different in 2026",
+        "sourceName": "Verified Voting",
+        "url": "https://verifiedvoting.org/blog-georgia-sb3ex-2026/",
+        "publishedAt": "2026-08-20",
+        "relevanceSummary": "Breaks down recent Georgia election-law changes under SB 3EX, clarifying that for the 2026 general election voter registration and absentee-voting deadlines remain the same, that in‑person voters will continue using Dominion ballot‑marking devices with paper ballots, and that counties run the process under state oversight—information that applies statewide to GA-02 voters.",
+        "tag": "administration",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-19-ga02-auto",
-      "startedAt": "2026-08-19T04:37:51.854Z",
-      "completedAt": "2026-08-19T04:39:03.130Z",
+      "id": "run-2026-08-26-ga02-auto",
+      "startedAt": "2026-08-26T04:41:32.225Z",
+      "completedAt": "2026-08-26T04:42:27.138Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 9,
+      "sourcesChecked": 8,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-19 for GA-02. Sources checked: 9. LLM verifications: 9. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-08-26 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-08-26T04:39:03.130Z",
+    "NEXT_REFRESH_AT": "2026-09-02T04:42:27.138Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
