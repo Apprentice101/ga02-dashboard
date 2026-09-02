@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-08-26",
-  "updatedAt": "2026-08-26T04:42:27.138Z",
-  "exportedAt": "2026-08-26T05:15:13.985Z",
+  "dataAsOf": "2026-09-02",
+  "updatedAt": "2026-09-02T08:28:17.682Z",
+  "exportedAt": "2026-09-02T09:08:58.219Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-08-26",
+        "lastVerified": "2026-09-02",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -920,20 +920,70 @@
         "relevanceSummary": "Breaks down recent Georgia election-law changes under SB 3EX, clarifying that for the 2026 general election voter registration and absentee-voting deadlines remain the same, that in‑person voters will continue using Dominion ballot‑marking devices with paper ballots, and that counties run the process under state oversight—information that applies statewide to GA-02 voters.",
         "tag": "administration",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0h7u2h9",
+        "headline": "Feds plan to launch voter fraud inquiry in Georgia",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/09/01/feds-plan-launch-voter-fraud-inquiry-georgia/",
+        "publishedAt": "2026-09-01",
+        "relevanceSummary": "The article reports on a planned federal voter fraud inquiry in Georgia and cites a recent independent state audit finding that Georgia's voter registration and list-maintenance system is 99.9% accurate and compliant with state law, confirming that current registration, identity verification, and list maintenance procedures used by the Secretary of State and counties (including those in GA-02) remain in place and are considered reliable.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-01cb5wf",
+        "headline": "Elections & Voter Registration | Douglas County, GA",
+        "sourceName": "Douglas County Government",
+        "url": "https://www.douglascountyga.gov/274/Elections-Voter-Registration",
+        "publishedAt": "2026-08-31",
+        "relevanceSummary": "This official county notice announces the schedule and public-access procedures for logic and accuracy testing of voting equipment for the November 3, 2026 General/Special Election, and links to statewide resources such as Georgia's My Voter Page and online voter registration, illustrating standard election administration practices and voter tools that also apply to GA-02 voters.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-01yt6av",
+        "headline": "Georgia Gubernatorial Candidates Weigh In On Election Security",
+        "sourceName": "Tippinsights",
+        "url": "https://tippinsights.com/georgia-gubernatorial-candidates-weigh-in-on-election-security/",
+        "publishedAt": "2026-08-28",
+        "relevanceSummary": "The article discusses ongoing debates among Georgia officials about election security and notes a state legislative panel considering a hand-marked ballot system after a 2024 law to eliminate QR codes from ballot counting, signaling potential future changes in ballot design and tabulation procedures that would affect how GA-02 voters’ ballots are cast and counted.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0wpij6z",
+        "headline": "Georgia Trend Daily - Aug. 27, 2026 (Federal appeals court voids ruling that Georgia’s political maps violated Voting Rights Act)",
+        "sourceName": "Georgia Trend",
+        "url": "https://www.georgiatrend.com/2026/08/27/georgia-trend-daily-aug-27-2026/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "Georgia Trend reports that the 11th U.S. Circuit Court of Appeals voided a ruling that Georgia's 2021 political maps violated the Voting Rights Act and sent the case back for reconsideration, clarifying that current congressional maps—including GA-02—remain in effect for 2026 and that any changes to district boundaries or representation will not impact procedures for the upcoming general election.",
+        "tag": "litigation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0aw84v4",
+        "headline": "Georgia Voting Maps Back in Court",
+        "sourceName": "Streetz 94.5 ATL",
+        "url": "https://streetz945atl.com/2026/08/27/georgia-voting-maps-back-in-court/",
+        "publishedAt": "2026-08-27",
+        "relevanceSummary": "This piece explains that a federal appeals court has ordered Georgia's redistricting lawsuit to be reconsidered but that the ruling will not change the districts used for Georgia’s November 2026 elections, meaning GA-02 boundaries, precinct assignments, and polling locations remain as currently drawn for the upcoming general election.",
+        "tag": "legal",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-08-26-ga02-auto",
-      "startedAt": "2026-08-26T04:41:32.225Z",
-      "completedAt": "2026-08-26T04:42:27.138Z",
+      "id": "run-2026-09-02-ga02-auto",
+      "startedAt": "2026-09-02T08:27:32.877Z",
+      "completedAt": "2026-09-02T08:28:17.682Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 8,
+      "updatesCreated": 5,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-08-26 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-02 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-02T04:42:27.138Z",
+    "NEXT_REFRESH_AT": "2026-09-09T08:28:17.682Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
