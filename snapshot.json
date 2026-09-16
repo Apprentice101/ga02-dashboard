@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-09",
-  "updatedAt": "2026-09-09T08:41:42.513Z",
-  "exportedAt": "2026-09-09T09:19:15.667Z",
+  "dataAsOf": "2026-09-16",
+  "updatedAt": "2026-09-16T09:10:18.661Z",
+  "exportedAt": "2026-09-16T09:50:48.937Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-09",
+        "lastVerified": "2026-09-16",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -1010,20 +1010,100 @@
         "relevanceSummary": "Georgia election officials are advising counties to keep using existing absentee-ballot procedures while federal action on mail voting is being discussed. This matters to GA-02 voters because statewide absentee rules, ballot-return procedures, and election-office timelines apply directly in Georgia.",
         "tag": "rule-change",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0dehkjg",
+        "headline": "Essential information for voting in Georgia in 2026",
+        "sourceName": "The Telegraph (Macon)",
+        "url": "https://www.macon.com/news/politics-government/election/voter-guide/article317252951.html",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This statewide voter guide details Georgia’s voter registration rules, the Oct. 3 registration cutoff, how to verify registration and find polling locations via My Voter Page, and the state’s photo ID requirements for both in‑person and absentee voting, including the list of acceptable IDs such as Georgia driver’s licenses, passports, government IDs, tribal IDs, and public college student IDs, all of which directly govern GA-02 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0hbwjjc",
+        "headline": "What to know about voting by mail after the U.S. Supreme Court’s decision",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/09/what-to-know-about-absentee-voting-after-the-us-supreme-courts-decision/",
+        "publishedAt": "2026-09-15",
+        "relevanceSummary": "This statewide guide explains Georgia’s current absentee-by-mail process after a Supreme Court ruling, including how GA-02 voters request ballots through the Secretary of State portal, the 11‑day request deadline before Election Day, ID requirements tied to applications, and options to return ballots via mail, county elections offices, or official drop boxes, along with how to track ballot status on My Voter Page.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0tlzj99",
+        "headline": "Trump presses attack on midterm election as deadline looms for mail ballots",
+        "sourceName": "World Socialist Web Site",
+        "url": "https://www.wsws.org/en/articles/2026/09/14/kuul-s14.html",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "This article notes that tens of thousands of Georgia absentee‑ballot applications are already awaiting processing and quotes the Secretary of State on mail‑ballot timelines, highlighting operational pressure on county election offices statewide; delays or procedural changes in processing these applications could affect when GA-02 voters receive mail ballots and their ability to return them on time.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0f7s8kg",
+        "headline": "Georgia voter registration guide: Act before Oct. 5",
+        "sourceName": "Rough Draft Atlanta",
+        "url": "https://roughdraftatlanta.com/2026/09/14/georgia-voter-registration-guide/",
+        "publishedAt": "2026-09-14",
+        "relevanceSummary": "This article provides a concise statewide guide to Georgia voter registration procedures, explaining how GA-02 residents can register online with a Georgia driver’s license or via paper using the last four digits of their Social Security number, and how to update registration information through the Secretary of State’s My Voter Page before the October registration deadline for the general election.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-01r2d1g",
+        "headline": "Georgia State Election Board pressures secretary of state to update voting machines",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/09/georgia-state-election-board-pressures-secretary-of-state-to-update-voting-machines/",
+        "publishedAt": "2026-09-11",
+        "relevanceSummary": "This statewide election administration story describes how the Georgia State Election Board is pressing the Secretary of State to update voting machines, a change that would affect polling-place equipment and election security procedures in every county, including those in GA-02, even as the Secretary of State’s office disputes the board’s authority over such changes.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0tutt3a",
+        "headline": "GA Secy of State: ‘Not enough time’ to implement Trump’s changes to mail-in voting",
+        "sourceName": "CNN Politics",
+        "url": "https://www.cnn.com/2026/09/10/politics/video/georgia-republican-brad-raffensperger-trump-mail-in-voting-ballots-midterm-elections-lead-jake-tapper",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "In this interview, Georgia Secretary of State Brad Raffensperger explains that there is insufficient time to implement proposed changes to mail‑in voting before the election, signaling that existing absentee procedures and timelines are likely to remain in place for Georgia voters, including those in GA-02, barring late court or legislative action.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0bilps5",
+        "headline": "Early voting, key election deadlines weeks away in Florida, Georgia - What voters need to know now",
+        "sourceName": "News4JAX",
+        "url": "https://www.news4jax.com/vote-2026/2026/09/10/early-voting-key-election-deadlines-weeks-away-in-florida-georgia-what-voters-needs-to-know-now/",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "This regional piece includes a Georgia‑specific section outlining statewide deadlines and procedures, including the October 5 voter registration deadline, the absentee‑ballot request deadline through the Georgia Secretary of State’s office, polling‑place hours (7 a.m. to 7 p.m.), and the requirement to vote at one’s assigned precinct with acceptable photo ID, all of which govern GA-02 voters’ participation.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0om7zzm",
+        "headline": "Raffensperger urges Supreme Court to reject Trump’s mail-in ballot plan",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/09/georgia-secretary-of-state-raffensperger-urges-supreme-court-to-reject-trumps-mail-in-ballot-plan/",
+        "publishedAt": "2026-09-10",
+        "relevanceSummary": "This article reports the Georgia Secretary of State’s position in federal litigation over proposed changes to mail‑in voting, noting existing timelines for mailing military, overseas, and other absentee ballots; any court decision or resulting policy shift would directly alter mail‑ballot procedures and deadlines for GA-02 voters in the November general election.",
+        "tag": "litigation",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-09-ga02-auto",
-      "startedAt": "2026-09-09T08:41:00.723Z",
-      "completedAt": "2026-09-09T08:41:42.513Z",
+      "id": "run-2026-09-16-ga02-auto",
+      "startedAt": "2026-09-16T09:08:37.789Z",
+      "completedAt": "2026-09-16T09:10:18.661Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 5,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-09 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-16 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-16T08:41:42.513Z",
+    "NEXT_REFRESH_AT": "2026-09-23T09:10:18.661Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
