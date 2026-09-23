@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-16",
-  "updatedAt": "2026-09-16T09:10:18.661Z",
-  "exportedAt": "2026-09-16T09:50:48.937Z",
+  "dataAsOf": "2026-09-23",
+  "updatedAt": "2026-09-23T09:08:46.159Z",
+  "exportedAt": "2026-09-23T09:37:11.475Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-16",
+        "lastVerified": "2026-09-23",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -1090,20 +1090,100 @@
         "relevanceSummary": "This article reports the Georgia Secretary of State’s position in federal litigation over proposed changes to mail‑in voting, noting existing timelines for mailing military, overseas, and other absentee ballots; any court decision or resulting policy shift would directly alter mail‑ballot procedures and deadlines for GA-02 voters in the November general election.",
         "tag": "litigation",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0xw272m",
+        "headline": "Which voter ID rules have changed since 2022? Here's what you need for the 2026 midterms",
+        "sourceName": "The Daily Signal",
+        "url": "https://news.meaww.com/which-voter-id-rules-have-changed-since-2022-heres-what-you-need-for-the-2026-midterms",
+        "publishedAt": "2026-09-22",
+        "relevanceSummary": "The article says Georgia requires physical identification documents for voting and accepts an expired Georgia driver’s license. It also describes Georgia’s three-day period for supplying identification after a provisional ballot.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-06b7ezy",
+        "headline": "From Your Mailbox to the Count: The Journey of a Georgia Mail Ballot",
+        "sourceName": "Cobb County Courier",
+        "url": "https://cobbcountycourier.com/2026/09/from-your-mailbox-to-the-count-the-journey-of-a-georgia-mail-ballot/",
+        "publishedAt": "2026-09-21",
+        "relevanceSummary": "The article explains Georgia absentee-ballot ID and signature checks, including the state’s curing process for missing signatures or mismatched identification information. It also reports that county offices must receive completed ballots by 7 p.m. on November 3.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0vrevpl",
+        "headline": "Georgia looking to replace voting equipment after 2020 election controversy",
+        "sourceName": "WSB-TV",
+        "url": "https://www.wsbtv.com/news/local/georgia-committee-looking-replace-voting-equipment-after-2020-election-controversy/A2HC746RP5A4PMNEBC73FZA6FA/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "Georgia lawmakers are considering whether to replace the state’s Dominion voting equipment. The decision would have statewide implications for equipment procurement, deployment, testing, and training, including in GA-02 counties.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-01ovvea",
+        "headline": "Ga. lawmakers hear testimony from election security experts at joint committee",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/09/18/ga-lawmakers-hear-testimony-election-security-experts-joint-committee/",
+        "publishedAt": "2026-09-18",
+        "relevanceSummary": "Georgia lawmakers heard election-security testimony and are scheduled to hear from voting-equipment vendors in October. The statewide equipment discussion could affect election administration and testing in GA-02 counties.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0dkzhxi",
+        "headline": "Voting in Georgia: Where to view your official sample ballot and what to know",
+        "sourceName": "Atlanta News First",
+        "url": "https://www.atlantanewsfirst.com/2026/09/17/voting-georgia-where-view-your-official-sample-ballot-what-know/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "Georgia voters can use the Secretary of State’s My Voter Page to view a customized sample ballot. The article also says county election boards generally publish composite sample ballots and make printed copies available at election offices.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-03bpqfn",
+        "headline": "Lawmakers mull cybersecurity concerns as they prepare for overhaul of Georgia's voting system",
+        "sourceName": "Georgia Recorder",
+        "url": "https://georgiarecorder.com/2026/09/17/lawmakers-mull-cybersecurity-concerns-as-they-prepare-for-overhaul-of-georgias-voting-system/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "Georgia lawmakers are developing standards for selecting the state’s next voting system, while legislation phases out QR codes on ballots. Any statewide replacement or standards change would eventually apply to election operations in GA-02.",
+        "tag": "legislation",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0lfn51i",
+        "headline": "A.M. ATL: Steer clear",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/news/2026/09/am-atl-steer-clear/",
+        "publishedAt": "2026-09-17",
+        "relevanceSummary": "Georgia voters can request absentee ballots without giving a reason. The article says applications must reach the county elections office at least 11 days before the election, and completed ballots must be received by poll closing on Election Day.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-00yfaae",
+        "headline": "Voter registration deadlines approaching in Georgia, South Carolina",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/09/16/voter-registration-deadlines-approaching-georgia-south-carolina/",
+        "publishedAt": "2026-09-16",
+        "relevanceSummary": "The article reports that Georgia’s voter-registration deadline for the November 3 general and special elections is October 5. Georgia voters are encouraged to verify registration status through state or county election offices.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-16-ga02-auto",
-      "startedAt": "2026-09-16T09:08:37.789Z",
-      "completedAt": "2026-09-16T09:10:18.661Z",
+      "id": "run-2026-09-23-ga02-auto",
+      "startedAt": "2026-09-23T09:08:09.115Z",
+      "completedAt": "2026-09-23T09:08:46.159Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
       "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-16 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-23 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-23T09:10:18.661Z",
+    "NEXT_REFRESH_AT": "2026-09-30T09:08:46.159Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
