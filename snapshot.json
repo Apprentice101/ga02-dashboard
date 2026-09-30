@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-23",
-  "updatedAt": "2026-09-23T09:08:46.159Z",
-  "exportedAt": "2026-09-23T09:37:11.475Z",
+  "dataAsOf": "2026-09-30",
+  "updatedAt": "2026-09-30T10:15:11.706Z",
+  "exportedAt": "2026-09-30T10:37:09.949Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-23",
+        "lastVerified": "2026-09-30",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -1170,20 +1170,90 @@
         "relevanceSummary": "The article reports that Georgia’s voter-registration deadline for the November 3 general and special elections is October 5. Georgia voters are encouraged to verify registration status through state or county election offices.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0gkpphh",
+        "headline": "Georgia election panel asks Trump administration to help push for election system updates",
+        "sourceName": "WABE",
+        "url": "https://www.wabe.org/georgia-election-panel-asks-trump-administration-to-help-push-for-election-system-updates/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The Georgia election panel is seeking federal assistance with election-system updates, and the state plans to move away from its current ballot QR-code tallying practice under the next system. The administrative development is relevant to voters statewide, including GA-02.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-09b7bnr",
+        "headline": "Georgia election deadlines: Register to vote by Oct. 5",
+        "sourceName": "Rough Draft Atlanta",
+        "url": "https://roughdraftatlanta.com/2026/09/29/georgia-election-registration-deadline/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The article reiterates Georgia's Oct. 5 registration deadline, Oct. 23 absentee-application deadline, and requirement that absentee ballots arrive by 7 p.m. on Election Day. It directs voters to the Secretary of State's My Voter Page for registration, polling, and sample-ballot information.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0hlteik",
+        "headline": "When is last day to register to vote in Georgia? Deadline almost here",
+        "sourceName": "USA Today",
+        "url": "https://www.usatoday.com/story/news/state/georgia/2026/09/29/are-you-registered-to-vote-in-georgia-deadline-coming-soon/92000402007/",
+        "publishedAt": "2026-09-29",
+        "relevanceSummary": "The statewide voter-registration deadline is Oct. 5, which applies to GA-02 voters. The article also provides the Oct. 13–30 early-voting period, county-based early-voting rules, and Nov. 3 Election Day polling hours.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0kr9gzz",
+        "headline": "Mail-in voting is still an option in Georgia for this year's midterms. Here's what voters should know.",
+        "sourceName": "Chattanooga Times Free Press",
+        "url": "https://www.timesfreepress.com/news/2026/sep/28/mail-in-voting-is-still-an-option-in-georgia-for/",
+        "publishedAt": "2026-09-28",
+        "relevanceSummary": "Georgia voters, including those in GA-02, may request absentee ballots without giving a reason. The article explains that ballots must include the voter's signature and driver's-license number or a copy of another acceptable photo ID, and must arrive by 7 p.m. on Election Day.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0rmttl1",
+        "headline": "Georgia's third-party candidates struggle for ballot access",
+        "sourceName": "The Current",
+        "url": "https://thecurrentga.org/2026/09/26/georgias-third-party-candidates-struggle-for-ballot-access-local-independents-feel-impacts-acutely/",
+        "publishedAt": "2026-09-26",
+        "relevanceSummary": "The article covers Georgia ballot-access procedures and signature verification by election officials. Those statewide qualification procedures can affect which candidates appear on ballots available to GA-02 voters.",
+        "tag": "ballot-access",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-03pciwe",
+        "headline": "Gearing up for midterm voting in Athens-Clarke County",
+        "sourceName": "WUGA",
+        "url": "https://www.wuga.org/local-news/2026-09-25/gearing-up-for-midterm-voting-in-athens-clarke-county",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "Although focused on Athens-Clarke County, the article reports statewide Georgia deadlines relevant to GA-02 voters: Oct. 5 for registration or voter-information updates, Oct. 23 for absentee-ballot requests, and Oct. 13–30 for early voting.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0a01f4y",
+        "headline": "Georgia voting rules: What you need to know before Election Day",
+        "sourceName": "11Alive",
+        "url": "https://www.11alive.com/article/news/politics/elections/georgia-voting-rules-what-you-need-to-know-before-election-day/85-f224593a-f266-4d3b-a7ec-3cc5433f2299",
+        "publishedAt": "2026-09-25",
+        "relevanceSummary": "This statewide voter guide details acceptable in-person photo IDs, assigned-precinct rules on Election Day, countywide early-voting access, absentee-ballot deadlines, signature requirements, and available drop-box or election-office return methods for GA-02 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-23-ga02-auto",
-      "startedAt": "2026-09-23T09:08:09.115Z",
-      "completedAt": "2026-09-23T09:08:46.159Z",
+      "id": "run-2026-09-30-ga02-auto",
+      "startedAt": "2026-09-30T10:14:42.494Z",
+      "completedAt": "2026-09-30T10:15:11.706Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 8,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-23 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-09-30 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-09-30T09:08:46.159Z",
+    "NEXT_REFRESH_AT": "2026-10-07T10:15:11.706Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
