@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-09-30",
-  "updatedAt": "2026-09-30T10:15:11.706Z",
-  "exportedAt": "2026-09-30T10:37:09.949Z",
+  "dataAsOf": "2026-10-07",
+  "updatedAt": "2026-10-07T10:50:41.818Z",
+  "exportedAt": "2026-10-07T11:12:32.161Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-09-30",
+        "lastVerified": "2026-10-07",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -1240,20 +1240,100 @@
         "relevanceSummary": "This statewide voter guide details acceptable in-person photo IDs, assigned-precinct rules on Election Day, countywide early-voting access, absentee-ballot deadlines, signature requirements, and available drop-box or election-office return methods for GA-02 voters.",
         "tag": "voter-id",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-019fg6x",
+        "headline": "Georgia Secretary of State urges voters to prepare ahead of November election",
+        "sourceName": "WSPA",
+        "url": "https://www.wspa.com/news/state-news/georgia-secretary-of-state-urges-voters-to-prepare-ahead-of-november-election/",
+        "publishedAt": "2026-10-06",
+        "relevanceSummary": "Georgia Secretary of State Brad Raffensperger urged voters statewide to use My Voter Page to verify registration, polling location, and sample ballot information. The article also gives the Oct. 13–30 early-voting period and Oct. 23 absentee-ballot request deadline relevant to GA-02 voters.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0iwqsie",
+        "headline": "Monday is the last day you can register to vote for November's midterm election. Here's what you need to know",
+        "sourceName": "News4JAX",
+        "url": "https://www.news4jax.com/vote-2026/2026/10/05/monday-is-the-last-day-you-can-register-to-vote-for-novembers-midterm-election-heres-what-you-need-to-know/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The article provides Georgia’s Oct. 5 registration and Oct. 23 absentee-ballot deadlines and lists accepted photo identification, including Georgia driver’s licenses, Georgia public-college IDs, government employee IDs, passports, military IDs, and other qualifying IDs. These statewide rules apply to GA-02 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0wqh7oh",
+        "headline": "How to check your Georgia voter status and register online or in person",
+        "sourceName": "CBS News Atlanta",
+        "url": "https://www.cbsnews.com/atlanta/news/georgia-check-voter-status-register-online-in-person/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The statewide registration deadline for Georgia’s general election was Oct. 5. The article explains how voters can check status and complete either online or paper registration, information directly applicable to GA-02 residents preparing for the November election.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0ktkymc",
+        "headline": "Last Day to Register to Vote for November Elections is Today",
+        "sourceName": "WLHR",
+        "url": "https://921wlhr.com/last-day-to-register-to-vote-for-november-elections-is-today/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "This Georgia election-information report covers the Oct. 5 registration deadline, statewide eligibility requirements, early voting from Oct. 13–30, and absentee-ballot requests through Oct. 23. It also explains that absentee ballots may be returned by mail, to a registration office, or through an authorized drop box or drop-off location.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0qvazg8",
+        "headline": "Today is last day to register to vote in Georgia’s 2026 midterms",
+        "sourceName": "Atlanta News First",
+        "url": "https://www.atlantanewsfirst.com/2026/10/05/today-is-last-day-register-vote-georgias-2026-midterms/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "The statewide Oct. 5 registration deadline applied directly to GA-02 voters. The article details online registration through the Secretary of State’s system, including the requirement for a valid Georgia driver’s license or state ID, and mail-registration options.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0g80c6i",
+        "headline": "What to know about voter registration in Georgia",
+        "sourceName": "Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/10/what-to-know-about-registering-to-vote-in-georgia/",
+        "publishedAt": "2026-10-05",
+        "relevanceSummary": "Georgia voters, including those in GA-02, could register by the Oct. 5 deadline through online or mail applications. The article also explains that early voting runs Oct. 13–30 and that registered voters may request absentee ballots, return them by mail, to their county elections office, or to an authorized drop box.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0vjavhp",
+        "headline": "GA Voter Guide 2026: Governor, Ossoff's Senate Seat Among Key Races",
+        "sourceName": "Patch",
+        "url": "https://patch.com/georgia/atlanta/ga-voter-guide-2026-governor-ossoffs-senate-seat-among-key-races",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The statewide voter guide covers the Oct. 5 registration deadline, Oct. 13–30 early voting, and Oct. 23 absentee-ballot request deadline. It also lists Georgia’s accepted photo IDs and explains that photo identification requirements apply to in-person and absentee voting, making the information relevant to GA-02 voters.",
+        "tag": "voter-id",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0xfidst",
+        "headline": "Mail-in voting remains available for Georgia’s 2026 elections. Here’s what you need to know.",
+        "sourceName": "Hear Georgia Now",
+        "url": "https://heargeorgianow.com/mail-in-voting-remains-available-for-georgias-2026-elections-heres-what-you-need-to-know/",
+        "publishedAt": "2026-10-01",
+        "relevanceSummary": "The article says absentee voting remains available statewide after the U.S. Supreme Court blocked an effort to restrict it. GA-02 voters may request an absentee ballot without an excuse by Oct. 23 and return it to their county registrar before polls close on Election Day.",
+        "tag": "ballot-access",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-09-30-ga02-auto",
-      "startedAt": "2026-09-30T10:14:42.494Z",
-      "completedAt": "2026-09-30T10:15:11.706Z",
+      "id": "run-2026-10-07-ga02-auto",
+      "startedAt": "2026-10-07T10:50:11.358Z",
+      "completedAt": "2026-10-07T10:50:41.818Z",
       "triggerType": "scheduled",
       "sourcesChecked": 8,
-      "updatesCreated": 7,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-09-30 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-07 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-07T10:15:11.706Z",
+    "NEXT_REFRESH_AT": "2026-10-14T10:50:41.818Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
