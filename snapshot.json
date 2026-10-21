@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-14",
-  "updatedAt": "2026-10-14T09:15:12.273Z",
-  "exportedAt": "2026-10-14T09:32:02.871Z",
+  "dataAsOf": "2026-10-21",
+  "updatedAt": "2026-10-21T09:06:18.173Z",
+  "exportedAt": "2026-10-21T09:21:52.585Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-21",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -1400,20 +1400,90 @@
         "relevanceSummary": "Georgia early voting begins Oct. 13, and GA-02 voters may vote at any early-voting site in their county. The article also explains acceptable identification, absentee-ballot return options, and the requirement that mail ballots arrive by poll closing on Election Day.",
         "tag": "voter-info",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0kpbg8i",
+        "headline": "Early voting setting record numbers in Georgia",
+        "sourceName": "WUGA",
+        "url": "https://www.wuga.org/local-news/2026-10-20/early-voting-setting-record-numbers-in-georgia?_amp=true",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "Nearly 51,000 absentee ballots had been accepted statewide, while early voting continues through October 30. The article points Georgia voters to the Secretary of State’s My Voter Page and Election Data Hub for voting information and turnout data.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0izbtva",
+        "headline": "Georgia 2026 elections: More than 1M Georgians have voted early",
+        "sourceName": "FOX 5 Atlanta",
+        "url": "https://www.fox5atlanta.com/news/georgia-2026-elections-more-than-1m-georgians-have-voted-early",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "The article reports more than 1 million Georgia ballots cast, including early in-person and mail ballots. It directs voters to the Secretary of State’s My Voter Page for county polling locations and hours, which applies to GA-02 voters.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-01n4zjq",
+        "headline": "More than 1 million Georgia voters cast ballots ahead of November election",
+        "sourceName": "CBS News Atlanta",
+        "url": "https://www.cbsnews.com/atlanta/news/more-than-1-million-georgia-voters-cast-ballots-ahead-of-november-election/",
+        "publishedAt": "2026-10-20",
+        "relevanceSummary": "Georgia surpassed 1 million early in-person voters, with nearly 49,000 accepted absentee ballots. Early voting continues through October 30, and voters can use the Secretary of State’s My Voter Page to find county locations and hours.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0z4ka3q",
+        "headline": "Top Georgia Election Official Rebuts Trump, Says Ballot Secure",
+        "sourceName": "Bloomberg",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-19/top-georgia-election-official-rebuts-trump-says-ballot-secure",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "Georgia Secretary of State Brad Raffensperger said he expects election results by midnight and described the state’s process as secure and orderly while early voting is underway. The statewide election-administration statement applies directly to GA-02 voters.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0sbz52x",
+        "headline": "Notice of Intent to Begin Absentee Ballot Tabulation Prior to Close of Polls",
+        "sourceName": "Clayton County Board of Elections and Registration",
+        "url": "https://www.claytoncountyga.gov/news/notice-of-intent-to-begin-absentee-ballot-tabulation-prior-to-close-of-polls/",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "Clayton County announced that absentee ballots for the November 3 election would be tabulated beginning at 9 a.m. on Election Day, while results would remain unavailable until polls close. The notice illustrates Georgia’s absentee-tabulation procedures relevant to voters statewide.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0pfcuk1",
+        "headline": "Early Processing of Absentee Ballots - Clayton County, Georgia",
+        "sourceName": "Clayton County Board of Elections and Registration",
+        "url": "https://www.claytoncountyga.gov/news/early-processing-of-absentee-ballots/",
+        "publishedAt": "2026-10-19",
+        "relevanceSummary": "Clayton County announced that absentee-ballot processing would occur October 21 through November 2, with envelope opening and scanning conducted under ballot-secrecy controls. This county-level procedure may inform statewide administrative practice, though Clayton County is outside GA-02.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0qtukss",
+        "headline": "Georgians 'shatter' voting record on first day of midterm early voting",
+        "sourceName": "Reuters",
+        "url": "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_MT1USDAYNETN92245836007?channel=xsp076",
+        "publishedAt": "2026-10-14",
+        "relevanceSummary": "Georgia early voting began October 13 and runs through October 30; Election Day is November 3 from 7 a.m. to 7 p.m. The report also states that voters needed to register by October 5 and should check the My Voter Page for exact locations and hours.",
+        "tag": "deadline",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-14-ga02-auto",
-      "startedAt": "2026-10-14T09:14:50.579Z",
-      "completedAt": "2026-10-14T09:15:12.273Z",
+      "id": "run-2026-10-21-ga02-auto",
+      "startedAt": "2026-10-21T09:05:44.726Z",
+      "completedAt": "2026-10-21T09:06:18.173Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 8,
-      "updatesCreated": 8,
+      "sourcesChecked": 9,
+      "updatesCreated": 7,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-14 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-21 for GA-02. Sources checked: 9. LLM verifications: 9. 2 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-21T09:15:12.273Z",
+    "NEXT_REFRESH_AT": "2026-10-28T09:06:18.173Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
