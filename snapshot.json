@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-21",
-  "updatedAt": "2026-10-21T09:06:18.173Z",
-  "exportedAt": "2026-10-21T09:21:52.585Z",
+  "dataAsOf": "2026-10-28",
+  "updatedAt": "2026-10-28T10:17:46.007Z",
+  "exportedAt": "2026-10-28T10:23:41.040Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -79,7 +79,7 @@
         "sourceType": "official-state",
         "hierarchyLevel": 1,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "Primary anchor for the 2026 statewide election calendar. Exact hour-of-day cutoffs for registration and absentee-request deadlines were not independently re-confirmed against the live SOS calendar PDF in this research pass."
       },
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-21",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-14",
+        "lastVerified": "2026-10-28",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -1470,20 +1470,100 @@
         "relevanceSummary": "Georgia early voting began October 13 and runs through October 30; Election Day is November 3 from 7 a.m. to 7 p.m. The report also states that voters needed to register by October 5 and should check the My Voter Page for exact locations and hours.",
         "tag": "deadline",
         "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0eshpxu",
+        "headline": "In Georgia and beyond, how election officials are working to mitigate distrust ahead of midterms",
+        "sourceName": "Good Morning America",
+        "url": "https://www.goodmorningamerica.com/amp/news/story/georgia-election-officials-working-mitigate-distrust-ahead-midterms-137515118",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "This statewide election-administration report explains Georgia’s verification process for ballots and election results, giving GA-02 voters context on how votes are checked and counted.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0lcwrqq",
+        "headline": "Inside Georgia's push to rebuild trust in elections after Trump's false claims",
+        "sourceName": "PBS NewsHour",
+        "url": "https://www.pbs.org/newshour/show/inside-georgias-push-to-rebuild-trust-in-elections-after-trumps-false-claims",
+        "publishedAt": "2026-10-27",
+        "relevanceSummary": "The statewide administration report describes logic-and-accuracy testing of voting machines in Georgia before the midterms and notes the state’s existing voter-ID requirement and recent voter-roll audit.",
+        "tag": "security",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0dfda8z",
+        "headline": "25,626 Muscogee Voters Have Cast Early Ballots, 1% Behind 2022 Pace With 5 Days",
+        "sourceName": "Columbus Times",
+        "url": "https://columbustimes.com/story/454/25626-muscogee-voters-have-cast-early-ballots-1-behind-2022-pace-with-5-days",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "Muscogee County overlaps GA-02, so the local early-voting and election-administration update directly informs district voters. It identifies the Oct. 30 end of advance voting, Nov. 3 polling hours, My Voter Page resources and acceptable in-person identification.",
+        "tag": "administration",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0bicmbz",
+        "headline": "Georgia voters' one-week checklist for Election Day",
+        "sourceName": "FOX 5 Atlanta",
+        "url": "https://www.fox5atlanta.com/election/georgia-voters-one-week-checklist-election-day",
+        "publishedAt": "2026-10-26",
+        "relevanceSummary": "GA-02 voters can use this statewide checklist to verify registration, assigned polling places, early-voting locations and sample ballots. It also explains that absentee ballots must be received by 7 p.m. on Election Day, not merely postmarked, and summarizes Georgia’s accepted in-person IDs.",
+        "tag": "voter-resource",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-02m1fm7",
+        "headline": "Georgia voting rules: How ballots are cast and counted across the state",
+        "sourceName": "FOX 5 Atlanta",
+        "url": "https://www.fox5atlanta.com/news/georgia-voting-rules-how-ballots-cast-counted-across-state",
+        "publishedAt": "2026-10-25",
+        "relevanceSummary": "This statewide procedural explainer covers Georgia’s advance voting, absentee-by-mail and drop-box options, polling hours, assigned Election Day precincts, accepted in-person IDs, and identification or document requirements for absentee applications.",
+        "tag": "voter-info",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0so3cw3",
+        "headline": "Final day to request mail ballot for midterms in Georgia",
+        "sourceName": "The Atlanta Journal-Constitution",
+        "url": "https://www.ajc.com/politics/2026/10/mail-ballot-request-deadline/",
+        "publishedAt": "2026-10-23",
+        "relevanceSummary": "The statewide report explains how to submit an absentee-ballot application, the Oct. 23 request deadline, return options including official drop boxes, and the requirement that ballots reach election officials by poll closing on Election Day.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0tfsbk3",
+        "headline": "Mail deadline is here as 1.29M Ga. voters cast ballots early so far",
+        "sourceName": "WRDW",
+        "url": "https://www.wrdw.com/2026/10/22/mail-deadline-is-here-129m-ga-voters-cast-ballots-early-so-far/",
+        "publishedAt": "2026-10-22",
+        "relevanceSummary": "The statewide report says absentee-ballot applications were due to county registrars by Oct. 23 and completed ballots must arrive by 7 p.m. on Election Day; it also directs voters to Georgia’s My Voter Page for early-voting locations and ballot status.",
+        "tag": "deadline",
+        "reviewState": "new"
+      },
+      {
+        "id": "news-ga02-0ei3dqt",
+        "headline": "Georgia voter guide 2026: Key dates, candidates, amendments and polling information",
+        "sourceName": "WTXL",
+        "url": "https://www.wtxl.com/news/elections/election-2026/georgia-voter-guide-2026-key-dates-candidates-amendments-and-polling-information",
+        "publishedAt": "2026-10-22",
+        "relevanceSummary": "This statewide guide gives GA-02 voters the Nov. 3 polling hours, the requirement to vote at an assigned Election Day location, accepted forms of in-person photo ID, and the absentee-ballot application deadline.",
+        "tag": "voter-info",
+        "reviewState": "new"
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-21-ga02-auto",
-      "startedAt": "2026-10-21T09:05:44.726Z",
-      "completedAt": "2026-10-21T09:06:18.173Z",
+      "id": "run-2026-10-28-ga02-auto",
+      "startedAt": "2026-10-28T10:17:23.757Z",
+      "completedAt": "2026-10-28T10:17:46.007Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 9,
-      "updatesCreated": 7,
+      "sourcesChecked": 8,
+      "updatesCreated": 8,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-21 for GA-02. Sources checked: 9. LLM verifications: 9. 2 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-10-28 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-10-28T09:06:18.173Z",
+    "NEXT_REFRESH_AT": "2026-11-04T10:17:46.007Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
