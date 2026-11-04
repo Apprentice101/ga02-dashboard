@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-10-28",
-  "updatedAt": "2026-10-28T10:17:46.007Z",
-  "exportedAt": "2026-10-28T10:23:41.040Z",
+  "dataAsOf": "2026-11-04",
+  "updatedAt": "2026-11-04T11:46:29.328Z",
+  "exportedAt": "2026-11-04T11:50:00.132Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -155,7 +155,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "unconfirmed",
         "notes": "NEEDS REVIEW: the enacted Dec. 2023 remedial congressional-map PDF was not independently re-fetched from this URL in this research pass; corroborated via news reporting instead."
       },
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -181,7 +181,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-10-28",
+        "lastVerified": "2026-11-04",
         "confidence": "unconfirmed",
         "notes": "Eliminates QR-code-based ballot tabulation effective July 1, 2026; counties must move to hand-marked, text-readable ballots before the Nov 3, 2026 general."
       },
@@ -1553,17 +1553,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-10-28-ga02-auto",
-      "startedAt": "2026-10-28T10:17:23.757Z",
-      "completedAt": "2026-10-28T10:17:46.007Z",
+      "id": "run-2026-11-04-ga02-auto",
+      "startedAt": "2026-11-04T11:46:28.578Z",
+      "completedAt": "2026-11-04T11:46:29.328Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 8,
-      "updatesCreated": 8,
+      "sourcesChecked": 10,
+      "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-10-28 for GA-02. Sources checked: 8. LLM verifications: 5. 4 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-04 for GA-02. Sources checked: 10. LLM verifications: 6. 3 lastVerified bumps on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-04T10:17:46.007Z",
+    "NEXT_REFRESH_AT": "2026-11-11T11:46:29.328Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
