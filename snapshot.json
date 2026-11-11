@@ -1,8 +1,8 @@
 {
   "version": "1",
-  "dataAsOf": "2026-11-04",
-  "updatedAt": "2026-11-04T11:46:29.328Z",
-  "exportedAt": "2026-11-04T11:50:00.132Z",
+  "dataAsOf": "2026-11-11",
+  "updatedAt": "2026-11-11T11:37:21.474Z",
+  "exportedAt": "2026-11-11T11:43:05.601Z",
   "districtCode": "GA-02",
   "data": {
     "DISTRICT": {
@@ -168,7 +168,7 @@
         "sourceType": "statutory",
         "hierarchyLevel": 3,
         "dateAccessed": "2026-07-09",
-        "lastVerified": "2026-11-04",
+        "lastVerified": "2026-11-11",
         "confidence": "unconfirmed",
         "notes": "Governs absentee-ballot request window, drop box restrictions, and wrong-precinct provisional ballot rule. Still in effect for 2026 per research; no repeal identified."
       },
@@ -1553,17 +1553,17 @@
       }
     ],
     "LAST_REFRESH": {
-      "id": "run-2026-11-04-ga02-auto",
-      "startedAt": "2026-11-04T11:46:28.578Z",
-      "completedAt": "2026-11-04T11:46:29.328Z",
+      "id": "run-2026-11-11-ga02-auto",
+      "startedAt": "2026-11-11T11:37:19.686Z",
+      "completedAt": "2026-11-11T11:37:21.474Z",
       "triggerType": "scheduled",
-      "sourcesChecked": 10,
+      "sourcesChecked": 11,
       "updatesCreated": 0,
       "conflictsCreated": 0,
       "errors": [],
-      "summary": "Automated refresh completed 2026-11-04 for GA-02. Sources checked: 10. LLM verifications: 6. 3 lastVerified bumps on unchanged sources."
+      "summary": "Automated refresh completed 2026-11-11 for GA-02. Sources checked: 11. LLM verifications: 10. 1 lastVerified bump on unchanged sources."
     },
-    "NEXT_REFRESH_AT": "2026-11-11T11:46:29.328Z",
+    "NEXT_REFRESH_AT": "2026-11-18T11:37:21.474Z",
     "WEEKLY_REPORT": {
       "id": "wr-ga02-2026-w28",
       "periodStart": "2026-07-09",
